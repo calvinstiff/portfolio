@@ -1,0 +1,34 @@
+* {margin: 0; padding: 0;}
+ 
+#products div {
+  margin: 200px;
+
+}
+ 
+#products ul {
+  list-style-type: none;
+  width: 1000px;
+}
+ 
+#products h2 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+ 
+ #products li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+ 
+#products li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+ 
+#products li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+#products li:hover {
+  background: #eee;
+  cursor: pointer;
+}

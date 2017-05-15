@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+<script
+src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+</script>
+
+<script>
+function initialize()
+{
+var mapProp = {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<link rel="stylesheet" type="css/text" href="css/global.css">
+</head>
+
+<body>
+	
+	<div id="wrapper">
+	
+	
+	
+		<ul id="navigation">
+			<p1> <a href="index.html"><img src="images/logo.png" alt="Louder!" height="75"></a></p1>
+			<li> <a href="whoops.html">Services</a></li>
+			<li> <a href="about.html">About Us</a></li>
+			<li> <a href="products.html">Products</a></li>
+			<li> <a href="index.html">Home</a></li>
+		</ul>
+		
+<br>
+<br>
+	
+<div id="about">
+		
+		<ul>
+				<li>
+					<img src="images/owner.jpeg" height="250" width="250">
+					<h3>Meet Leeroy</h3>
+					<br>
+					<p>Leeroy Jenkins is a classically trained musician with roots stemming from Nashville. Leeroy moved to the UK in 1997 to open Louder! -A community owned music store.</p>
+					
+					
+				</li>
+				<li>
+					<div id="googleMap" style="width:250px;height:250px;"></div>
+					<h3>Our Location</h3>
+					<br>
+					<p>Louder! is based out of Liverpool, UK. </p>
+					<br>
+					<p>29 Hatton Garden</p>
+					<p>Liverpool, Merseyside, L3 2EZ</p>
+				</li>
+				<li class="last">
+					<img src="images/open.jpeg" height="250" width="250">
+					<h3>Hours</h3>
+					<br>
+					<p> Our Hours are as follows: </p>
+					<p> Monday-Friday: 10am-8pm </p>
+					<p> Closed: Weekends and Holidays</p>
+					
+				</li>
+		</ul>
+		
+	
+	</div>
+	
+
+	
+	
+
+	
+			
+			
+	</div>
+	
+
+
+</body>
+</html>
